@@ -65,11 +65,6 @@ if __name__ == "__main__":
        type=float,
        default=.80,
        help='fraction of the dataset that will be separated for training (default .75)')
-   parser.add_argument('-s',
-                       metavar='stratify',
-                       type=bool,
-                       default=True,
-                       help='Stratify by class instead of whole dataset (default True)')
    parser.add_argument(
        '-o',
        metavar='output_dir',
